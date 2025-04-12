@@ -7,15 +7,15 @@ To write a program to find the LU Decomposition of a matrix.
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
-## Algorithm
-### Step 1: 
-Import the numpy module to use the built-in functions for calculation
-### Step 2: 
-Prepare the lists from each linear equations and assign in np.array()
-### Step 3: 
-Using the np.linalg.matrix_rank(), we can find the inverse of the given matrix
-### Step 4: 
-End the program
+## Algorithm:
+### Step 1:
+Import lu(),lu_factor() and lu_solve() from scipy.linalg library
+### Step 2:
+Use lu() method to find lower and upper matrix.
+### Step 3:
+Use lu_factor() and lu_solve to solve the two matrixes.
+### Step 4:
+End the program.
 
 ## Program:
 (i) To find the L and U matrix
