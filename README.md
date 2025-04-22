@@ -43,16 +43,11 @@ lu,piv=lu_factor(A)
 x=lu_solve((lu,piv),b)
 print (x)
 ```
-
 ## Output:
 (i) To find the L and U matrix
-
 ![Screenshot 2025-04-12 133034](https://github.com/user-attachments/assets/3b556a21-9e97-4677-99ea-d89367cb4a68)
-
 (ii) To find the LU Decomposition of a matrix
-
-![Screenshot 2025-04-12 133056](https://github.com/user-attachments/assets/ba57ac2b-3b6c-4ac1-904d-42d20cc882e9)
-
+![Screenshot 2025-04-22 080054](https://github.com/user-attachments/assets/98ee8180-d439-48fc-9865-b110b93664df)
 ## Result:
 Thus the program to find the LU Decomposition of a matrix is written and verified using python programming.
 
